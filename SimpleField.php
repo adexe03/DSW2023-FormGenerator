@@ -1,9 +1,6 @@
 <?php
     require_once 'Field.php';
     class SimpleField extends Field {
-        
-        
-        
         public function render() {
             if ($this->type == 'checkbox') {
                 if ($this->default == 'true') {
